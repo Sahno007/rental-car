@@ -11,7 +11,7 @@ import { GlobalStyles, theme } from 'styles';
 import { PersistGate } from 'redux-persist/integration/react';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <BrowserRouter basename="/CarRental">
+  <BrowserRouter basename="/rental-car">
     <Provider store={store}>
       <PersistGate loading={null} persistor={persistor}>
         <ThemeProvider theme={theme}>
